@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Kaushan+Script&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Arima:wght@100&family=Edu+SA+Beginner:wght@700&family=Kaushan+Script&family=Playball&family=Prata&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(228, 42, 157);
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 15px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 23px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+}
+.sidebar nav span li a{
+  color: #2ded53;
+  border: #070707;
+ 
+}
+
+
+.main {
+    /* background-color: aquamarine;*/
+    width: 90vw
+   
+}
+
+.container {
+    display: flex;
+}
+.infoContainer {
+   /* background-color: sandybrown;*/
+    height: 55vh;
+    width: 80vw;
+    margin: 94px auto;
+    
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    color: #070707;
+    flex-direction: column;
+}
+.devInfo span{
+    color: #710a2b;
+
+}
+
+.hello {
+    font-size: 80px;
+    font-family: 'Arima', cursive;
+
+    font-family: 'Playball', cursive;
+}
+
+.name {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 40px;
+    font-size: xx-large;
+
+}
+
+.about {
+    font-size: 35px;
+    font-family: 'Playball', cursive;
+}
+
+.button button {
+    font-size: 15px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 12px;
+    color: rgb(82, 202, 23);
+    background: black;
+    font-weight: bold;
+}
+.button button:hover{
+    background-color: rgb(13, 173, 16);
+    color:white;
+}
+
+.devPic img {
+    width: 375px;
+    height: 69vh;
+    
+}
+.contactform{  
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 143px;
+    margin: 0 300px;
+    
+    padding: 53px;  
+
+}
+.contactform h1{  
+    font-family: 'Arima', cursive;
+    text-align: center;
+    padding: 30px;
+
+}
+.contactform div{
+    padding: 15px;
+}
+.contactform button{
+    font-family: 'Edu SA Beginner', cursive;
+border-radius: 20px;
+background: black;
+color: rgb(24, 222, 24);
+padding: 10px;
+}
+.contactform button:hover{
+    background-color: rgb(13, 173, 16);
+    color:white;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 30vw;
+    border-radius: 8px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+body{
+   background:linear-gradient(135deg, var(--primary),var(--secondary)) ;
+             
+}
+:root{
+    --primary:rgba(223, 13, 223, 0.65);
+    
+    --secondary:rgba(24, 207, 207, 0.65);
+}
+h1{
+    font-family: 'Playball', cursive;
+    margin: 23px;
+}
+h2{
+    font-family: 'Playball', cursive;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 23px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+.skillcontainer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+padding: 12px;
+    
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+
+}
+.hundered{
+    width: 234px;
+    background-color: aquamarine;
+}
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+}
+.t5{
+    width: 75px;
+    background-color: aquamarine;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    margin-top: 5px;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 127px;
+    width: 30px;
+}
+.sidebarGo{
+    transform:translate(-443px,0px);
+    position: absolute;
+}
+.intro{
+    margin: 50px 90px;
+}
+
+@media (max-width:667px){
+    .devPic{
+        display: none;
+    }
+    /*.sidebar{
+        transform:translate(-443px,0px);
+        position: absolute;
+    }*/
+}
