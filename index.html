@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6219bca697.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="home" class="container">
+
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <span>
+                        <li><a href="#home">HOME</li></a>
+                        <li><a href="#about">ABOUT</li></a>
+                        <li><a href="#services2">SERVICES</li></a>
+                        <li><a href="#services1">MY WORK</li></a>
+                        <li><a href="#contact">CONTACT ME</li></a>
+                    </span>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="23">
+                <img class="cross" src="cross.png" alt="" width="23">
+            </div>
+            <div class="header">
+
+
+                <nav id="navbar">
+                    <img src="/logo.png" class="logo">
+                    <ul id="menu">
+                        <li><a href="#home">HOME</li></a>
+                        <li><a href="#about">ABOUT</li></a>
+                        <li><a href="#services2">SERVICES</li></a>
+                        <li><a href="#services1">MY WORK</li></a>
+                        <li><a href="#contact">CONTACT ME</li></a>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name"><span>R</span>ohit <span>R</span>awat</div>
+                    <div class="about">Student,Developer</div>
+                    <div class="moreabout">I am a developer. I have a diverse set of skills, ranging from design, to
+                        HTML +
+                        CSS + Javascript.</div>
+                    <div class="button">
+                        <a href="/CV Image.png" target="_blank">
+                            <button>Download CV👆</button></a>
+                        <a href="#contact"><button>Contact Me👆</button></a>
+                    </div>
+                </div>
+                <div class="devPic"><img src="dev.png" alt="Rohit Rawat"></div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <div id="services1">
+        <div class="container1">
+            <h1 class="sub-title">My Work</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Write scalable, testable, well-documented code
+                    </h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>Work with graphics and other designers</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wrench"></i></i>
+                    <h2>Maintain and update websites</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Monitor website traffic</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="services2">
+        <div class="container1">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Github</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae perspiciatis suscipit
+                        excepturi labore enim minus recusandae cum et, distinctio asperiores atque debitis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="container2">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> rohitrawat5172@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+
+
+                    <h1>Contact me for work/general Enquiries</h1>
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" name="first_name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="Email" placeholder="Email id" required>
+                        <textarea name="message" id="message" rows="6" placeholder="How can we help you?"></textarea>
+                        <button type="submit" class=" button2" value="submit" name="save">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="about" class="intro">
+
+                <div class="devInfo1">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dignissimos magni iusto
+                        minima beatae? Laboriosam molestiae reprehenderit sint quam iure corrupti, quod ratione vero
+                        rerum consectetur odit dolores nemo incidunt atque assumenda!</p>
+                    <h2>My Skills</h2>
+                    <div class="skillcontainer">
+                        <div class:"skillItem">HTML:<div class="skill"></div>
+                        </div>
+                        <div class:"skillItem">CSS:<div class="skill"></div>
+                        </div>
+                        <div class:"skillItem">JAVASCRIPT:<div class="skill"></div>
+                        </div>
+                        <div class:"skillItem">PHP:<div class="skill"></div>
+                        </div>
+                        <div class:"skillItem">PYTHON:<div class="skill"></div>
+                        </div>
+                       
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https:/www.linkedin.com/in/rohit-rawat-9a70b1230"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCkNgr7osjLj27FLTahcmtAA"><i class="fa-brands fa-youtube"></i></i></a>      
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <script src="script.js"></script>
+                <script>
+                    var navbar = document.getElementById("navbar");
+                    var menu = document.getElementById("menu");
+
+                    window.onscroll = function () {
+                        if (window.pageYOffset >= menu.offsetTop) {
+                            navbar.classList.add("sticky");
+                        }
+                        else {
+                            navbar.classList.remove("sticky");
+                        }
+                    }
+                </script>
+
+                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <script>
+                    function sendEmail() {
+                        Email.send({
+                            Host: "smtp.gmail.com",
+                            Username: "20cs1003@mvn.edu.in",
+                            Password: "rohit@2001",
+                            To: 'rohitrawat5172@gmail.com',
+                            From: document.getElementById("email").value,
+                            Subject: "New Contact form Enquiry",
+                            Body: "Name:" +document.getElementById("name").value
+                                 +"<br> Email:" +document.getElementById("email").value
+                                 +"<br> Message:" +document.getElementById("message").value
+                                 
+                        }).then(
+                            message => alert("Message Submit Successfully😊😊")
+                        );
+
+                    }
+
+
+                </script>
+
+</body>
+
+</html>
