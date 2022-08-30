@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Kaushan+Script&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Arima:wght@100&family=Edu+SA+Beginner:wght@700&family=Kaushan+Script&family=Playball&family=Prata&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    margin: 23px;
+    margin-top: 23px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    margin-left: 23px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    margin-top: 5px;
+    height: auto;
+}
+
+
+.header nav {
+    margin: 23px;
+
+    padding: 0px;
+    margin-left: 20px;
+    text-align: center;
+    width: 200vh;
+    transition: padding 1s;
+}
+
+.header nav ul {
+    background: #000;
+    width: 99%;
+    margin-top: 0cm;
+}
+
+.header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+
+    color: #fff;
+    text-decoration-line: none;
+
+    transition: padding 1s;
+}
+
+.header nav ul li:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: greenyellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.header nav ul li:hover::after {
+    width: 100%;
+
+}
+
+.header nav ul li a {
+    font-family: 'Arima', cursive;
+    display: inline-block;
+    list-style: none;
+
+
+    color: #fff;
+    text-decoration-line: none;
+
+}
+
+.header nav.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-top: 0cm;
+    padding: 8px 5%;
+    background: rgb(15, 15, 15);
+    block-size: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    transition: padding 1s;
+}
+
+#services1 {
+    margin: 20px;
+}
+
+#services2 {
+    margin: 20px;
+
+}
+
+.sidebar {
+    background-color: rgb(239, 232, 232);
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    border: #070707;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+        url('img/background.jpeg') no-repeat center center/cover;
+
+}
+
+.sidebar nav {
+    padding: 15px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 23px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.sidebar nav span li a {
+    color: #100f10;
+    border: #070707;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.sidebar nav li a:hovar {
+    background-color: #26ff00;
+    transform: translateY(-10px);
+}
+
+
+.main {
+    /* background-color: aquamarine;*/
+    width: 33vw
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: sandybrown;*/
+    height: 55vh;
+    width: 80vw;
+    margin: 154px auto;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    color: #181919;
+    padding: 93px;
+    margin-top: -180px;
+    flex-direction: column;
+}
+
+.devInfo1 {
+    color: #5dc2cf;
+    display: flex;
+    justify-content: center;
+
+    padding: 93px;
+    flex-direction: column;
+
+}
+
+.devInfo1 h1 {
+    background: rgb(231, 226, 226);
+    color: #000;
+    margin-top: 0cm;
+}
+
+.devInfo1 h2 {
+    text-align: left;
+    color: #fff;
+}
+
+.devInfo1 .skillcontainer {
+    text-align: left;
+}
+
+.devInfo1 .skillcontainer .social-icons {
+    text-align: center;
+}
+
+.devInfo span {
+    color: #bfe60f;
+
+}
+
+.hello {
+    font-size: 80px;
+    font-family: 'Arima', cursive;
+
+    font-family: 'Playball', cursive;
+}
+
+.name {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 40px;
+    font-size: xx-large;
+
+}
+
+.about {
+    font-size: 35px;
+    font-family: 'Playball', cursive;
+}
+
+.button button {
+    font-size: 15px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 12px;
+    color: rgb(82, 202, 23);
+    background: black;
+    font-weight: bold;
+}
+
+.button button:hover {
+    background-color: rgb(13, 173, 16);
+    color: white;
+}
+
+.devPic img {
+    width: 270px;
+    height: 52vh;
+    margin-top: -118px;
+
+}
+
+.contactform {
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 143px;
+    margin: 0 300px;
+    margin-right: -87px;
+
+    padding: 53px;
+
+}
+
+.contactform h1 {
+    font-family: 'Arima', cursive;
+    text-align: center;
+    padding: 30px;
+    margin-right: 385px;
+
+}
+
+.contactform div {
+    padding: 15px;
+}
+
+.contactform button {
+    font-family: 'Edu SA Beginner', cursive;
+    border-radius: 20px;
+    background: black;
+    color: rgb(24, 222, 24);
+    padding: 10px;
+}
+
+.contactform button:hover {
+    background-color: rgb(13, 173, 16);
+    color: white;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 30vw;
+    border-radius: 8px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.container {
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+        url('../img/rohit.jpeg') no-repeat center center/cover;
+    /* background:linear-gradient(135deg, var(--primary),var(--secondary)) ;*/
+    background-position: center;
+
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+:root {
+    --primary: rgba(244, 236, 236, 0.65);
+
+    --secondary: rgba(226, 229, 150, 0.65);
+}
+
+.container2 {
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+    flex-basis: 10%;
+    margin-top: 50px;
+    margin-bottom: 0cm;
+}
+
+.container1 h1 {
+    background-color: #000;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    margin: 23px;
+}
+
+h2 {
+    font-family: 'Playball', cursive;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 23px;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+
+}
+
+.skillcontainer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    padding: 12px;
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+
+}
+
+.hundered {
+    width: 234px;
+    background-color: aquamarine;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aquamarine;
+}
+
+.t5 {
+    width: 75px;
+    background-color: aquamarine;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 5px;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 127px;
+    width: 30px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.intro {
+    margin: 50px 90px;
+}
+
+
+@media (min-width:600px) {
+    
+}
+@media (min-width:992px)  {
+    
+}
+@media (min-width:1200px) {
+    
+}
+@media (min-width:480px) {
+    
+   
+}
+
+
+@media (max-width:600px) {
+    
+   
+}
+
+@media (max-width:768px) {
+    .devPic {
+        display: none;
+    }
+
+    .menu {
+        width: 21%;
+        display: block;
+    }
+
+    .header nav ul {
+        width: 25%;
+    }
+
+    .logo {
+        width: 5%;
+        align-items: center;
+        display: block;
+    } 
+
+    .devInfo1 {
+        color: #5dc2cf;
+        display: flex;
+        justify-content: centerleft;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .skillcontainer {
+        font-family: 'Arima';
+        padding: inherit;
+    }
+
+    .skill {
+        width: 160px;
+        height: 6px;
+        background-color: red;
+    }
+    .button{
+        margin-top: -10px;
+       
+    }
+}
+
+
+/*.sidebar{
+        transform:translate(-443px,0px);
+        position: absolute;
+    }*/
+
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: #d6e679;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.services-list div:hover {
+    background-color: #26ff00;
+    transform: translateY(-10px);
+}
+
+.contact-left {
+    flex-basis: 35%;
+    padding: 47px;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    padding: 180px;
+}
+
+.contact-right h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: -177px;
+
+}
+
+.contact-left p {
+    margin-top: 30pxs;
+
+}
+
+.contact-left p i {
+    color: rgb(51, 43, 211);
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.social-icons {
+    margin-top: 30px;
+    padding-left: 27px;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    font: 30px;
+    margin-right: 15px;
+    size: 80px;
+    color: #e7e7ed;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #17de17;
+    transform: translate(-5px);
+
+}
+
+.button2 {
+    font-size: 15px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 12px;
+    color: rgb(82, 202, 23);
+    background: rgb(243, 239, 239);
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: rgb(13, 173, 16);
+    color: white;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #bbdf57;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(18, 17, 17);
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .button2 {
+    /*  padding: 14px 60px;*/
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
